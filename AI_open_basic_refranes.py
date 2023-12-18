@@ -3,17 +3,19 @@
 import openai
 
 def complete_phrase_with_gpt3(prompt, api_key):
-    openai.api_key = "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"
+    openai.api_key = api_key
 
     response = openai.Completion.create(
-        engine="text-davinci-003",  # Puedes elegir el modelo específico de GPT-3 aquí
+        # Puedes elegir el modelo específico de GPT-3 aquí
+        engine="text-davinci-003",  
         prompt=prompt,
-        max_tokens=50  # Limita la cantidad de tokens (palabras) generados
+        # Número máxinmo de palabras generadas
+        max_tokens=50  
     )
 
     return response.choices[0].text.strip()
 
-# Tu clave API de OpenAI (debes reemplazar esto con tu propia clave)
+# Clave API de OpenAI
 api_key = "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"
 
 # El comienzo del refrán o frase que quieres completar

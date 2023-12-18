@@ -2,7 +2,7 @@
 
 import openai
 
-def complete_phrase_with_gpt3(prompt, api_key):
+def completar_frase_gpt3(prompt, api_key):
     openai.api_key = api_key
 
     response = openai.Completion.create(
@@ -23,5 +23,5 @@ api_key = "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"
 prompt = input("Dime el comienzo del refran: ")
 
 # Obtener la frase completada por GPT-3
-completed_phrase = complete_phrase_with_gpt3(prompt, api_key)
+completed_phrase = completar_frase_gpt3(prompt, api_key)
 print("Frase completada:", completed_phrase)

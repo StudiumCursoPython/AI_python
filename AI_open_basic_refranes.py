@@ -6,7 +6,7 @@ def completar_frase_gpt3(prompt, api_key):
     openai.api_key = api_key
 
     response = openai.Completion.create(
-        # Puedes elegir el modelo específico de GPT-3 aquí
+        # Se puede elegir y usar un modelo específico de GPT-3
         engine="text-davinci-003",  
         prompt=prompt,
         # Número máxinmo de palabras generadas

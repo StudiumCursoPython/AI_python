@@ -7,7 +7,12 @@ def completar_frase_gpt3(prompt, api_key):
 
     response = openai.Completion.create(
         # Se puede elegir y usar un modelo específico de GPT-3
-        engine="text-davinci-003",  
+        engine="text-davinci-003",
+        
+        #promt es una entrada de texto inicial que se proporciona al modelo para iniciar la generación de texto.
+        #El prompt es esencialmente la parte del texto que se presenta como contexto o inicio de una solicitud al modelo
+        #y a partir de ese punto, el modelo genera texto de manera coherente y relevante.
+        
         prompt=prompt,
         # Número máxinmo de palabras generadas
         max_tokens=50  

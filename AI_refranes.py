@@ -1,7 +1,16 @@
-import nltk
-from nltk import bigrams
+""" 
+Curso Python empresa de 'Lenguaje de Programación Python'
+
+Autor: José Antonio Calvo López
+
+Fecha: Noviembre 2023
+
+"""
+
 from collections import Counter
+from nltk import bigrams
 import random
+import nltk
 
 # Función para construir un modelo de bigramas
 def build_bigram_model(text):

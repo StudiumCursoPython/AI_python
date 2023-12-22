@@ -1,7 +1,16 @@
-import nltk
-from nltk.corpus import stopwords
+""" 
+Curso Python empresa de 'Lenguaje de Programación Python'
+
+Autor: José Antonio Calvo López
+
+Fecha: Noviembre 2023
+
+"""
+
 from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 from collections import Counter
+import nltk
 
 # Descargar los datos necesarios de nltk
 nltk.download('punkt')

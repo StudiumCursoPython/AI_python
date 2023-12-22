@@ -1,7 +1,16 @@
-import openai  
-import typer  
+""" 
+Curso Python empresa de 'Lenguaje de Programación Python'
+
+Autor: José Antonio Calvo López
+
+Fecha: Noviembre 2023
+
+"""
+
 from rich import print  
 from rich.table import Table
+import openai  
+import typer  
 
 """
 Webs de interés:

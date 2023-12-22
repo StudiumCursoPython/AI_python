@@ -13,7 +13,7 @@ import openai
 
 
 # Configura tu clave de API aquí
-openai.api_key = "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"
+openai.api_key = "API En mi Drive"
 
 # Configuración inicial
 context = {"role": "system", "content": "Eres un asistente muy útil."}

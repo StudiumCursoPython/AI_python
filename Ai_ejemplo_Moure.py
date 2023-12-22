@@ -23,7 +23,7 @@ Webs de interés:
 
 def main():
 
-    openai.api_key = "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"
+    openai.api_key = "API en mi Drive"
     
     print("💬 [bold green]ChatGPT API en Python[/bold green]")
 

@@ -7,8 +7,6 @@ Fecha: Noviembre 2023
 
 """
 
-#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
-
 import openai
 
 def completar_frase_gpt3(prompt, api_key):
@@ -30,7 +28,7 @@ def completar_frase_gpt3(prompt, api_key):
     return response.choices[0].text.strip()
 
 # Clave API de OpenAI
-api_key = "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"
+api_key = "API en el mi Drive"
 
 # El comienzo del refrán o frase que quieres completar
 
